@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Urna Clone</title>
+        <meta name="author" content="Mateus Moreira">
+        <meta name="description" content="Urna eletronica com javascript">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       <div class="urna">
+           <div class="tela">
+               <div class="src-1">
+                   <div class="info">
+                        <div class="info-1">
+                            <span></span>
+                        </div>
+                        <div class="info-2">
+                            <span></span>
+                        </div>
+                        <div class="info-voto">
+                            <div class="numero pisca"></div>
+                            <div class="numero"></div>
+                        </div>
+                        <div class="info-dados">
+
+                        </div>
+                   </div>
+                   <div class="foto">
+                        <div class="image">
+
+                        </div>
+                        <div class="image small">
+                            
+                        </div>
+                </div>
+               </div><!--src-1-->
+               <div class="src-2">
+                    Aperta uma tecla<br/>
+                    CONFIRMA para CONFIRMAR esse voto<br/>
+                    CORRIGE para REINICIAR esse voto
+               </div><!--scr-2-->
+           </div><!--tela-->
+           <div class="teclado">
+               <div class="teclado-linha">
+                   <div class="teclado-butao" onclick="clicou('1')">1</div>
+                   <div class="teclado-butao" onclick="clicou('2')">2</div>
+                   <div class="teclado-butao" onclick="clicou('3')">3</div>
+               </div>
+                <div class="teclado-linha">
+                    <div class="teclado-butao" onclick="clicou('4')">4</div>
+                    <div class="teclado-butao" onclick="clicou('5')">5</div>
+                    <div class="teclado-butao" onclick="clicou('6')">6</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-butao" onclick="clicou('7')">7</div>
+                    <div class="teclado-butao" onclick="clicou('8')">8</div>
+                    <div class="teclado-butao" onclick="clicou('9')">9</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-butao" onclick="clicou('0')">0</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-butao btn-branco" onclick="branco()">BRANCO</div>
+                    <div class="teclado-butao btn-corrige" onclick="corrige()">CORRIGE</div>
+                    <div class="teclado-butao btn-confirma" onclick="confirma()">CONFIRMA</div>
+                </div>
+           </div><!--teclado-->
+       </div><!--urna-->
+        
+        <script src="js/etapas.js"></script>
+        <script src="js/func.js"></script>
+    </body>
+</html>
