@@ -22,6 +22,7 @@
   <li>Confirmar o seu voto</li>
   <li>Corrigir o seu voto</li>
   <li>Votar em branco</li>
+  <li>Anular o seu voto</li>
 </ul>
 
 # Lista de candidatos para votar
